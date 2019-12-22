@@ -1,0 +1,17 @@
+@import "node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+#image {
+    z-index: 1;
+}
+.trainer {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    background: url("./images/image.jpg") top center no-repeat transparent;
+    background-size: 100% 100%;
+}
