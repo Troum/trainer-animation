@@ -12,6 +12,16 @@
     height: 0;
     width: 100%;
     opacity: 0;
-    background: url("./images/image.jpg") top center no-repeat transparent;
+    background: url("./images/image.jpg") top center no-repeat;
     background-size: 100% 100%;
+}
+
+@media (max-width: 768px) {
+    .trainer {
+        background: url("./images/image-mobile.png") top center no-repeat;
+        background-size: contain;
+    }
+    #image {
+        transform: translateY(230);
+    }
 }
